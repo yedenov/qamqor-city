@@ -1,0 +1,10 @@
+{
+  "name": "qamqor-city",
+  "version": "1.0.0",
+  "description": "A thoughtful civic participation workspace: local initiatives, event planning and transparent personal impact.",
+  "type": "module",
+  "private": true,
+  "scripts": {"start": "node scripts/serve.mjs", "test": "node --test", "check": "node --check dist/app.js && node --check dist/domain.js && node --check dist/data.js"},
+  "engines": {"node": ">=22"},
+  "license": "MIT"
+}
